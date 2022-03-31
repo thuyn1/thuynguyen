@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading1{
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    background-color: azure;
+    border: 2px solid blue;
+    transition: all 2s ease-in;
+    padding: 15px;
+    text-align: center;
+    margin: 0 auto;
+}
+.heading1:hover{
+    background-color: tomato;
+    border-color: aquamarine;
+}
+
+
+.box{
+    width: 400px;
+    background-color: rgb(214, 211, 211);
+    margin: 20px 20px 20px;
+    overflow: hidden;
+    box-shadow: 3px 3px 20px rgb(168, 190, 204);
+    position: absolute;
+    display: inline-block;
+}
+.noidung2{
+    width: 400px;
+    overflow: hidden;
+}
+.noidung2 img{
+    width: 400px;
+}
+.noidung{
+    padding: 12px 20px;
+}
+.noidung h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: #4d7cbf;
+}
+.noidung p{
+    margin-top: 10px;
+    color: #4d7cbf;
+    font-size: 15px;
+    transition:all 2s ease-in;
+}
+.noidung p:hover{
+    background-color: rgb(255, 172, 158);
+}
+.content{
+    width: 400px;
+    height: 200px;
+    background-color: rgba(190, 250, 250, 0.541);
+    color: rgb(17, 126, 250);
+    position: relative;
+    top:0;
+    left:0;
+    margin: 80px 20px;
+    visibility: visible;
+    opacity: 1;
+    transition-duration:2s;
+    padding: 20px;
+    display: inline-block;
+}
+.content:hover{
+    background-color: rgba(200, 253, 236, 0.753);
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+.box1{
+    width: 400px;
+    background-color: rgb(214, 211, 211);
+    margin: 20px 20px 20px;
+    overflow: hidden;
+    box-shadow: 3px 3px 20px rgb(168, 190, 204);
+    position: absolute;
+    display: inline-block;
+}
+.noidung3{
+    width: 400px;
+    overflow: hidden;
+}
+.noidung3 img{
+    width: 400px;
+}
+.noidung1{
+    padding: 12px 20px;
+}
+.noidung1 h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: #4d7cbf;
+}
+.noidung1 p{
+    margin-top: 10px;
+    color: #4d7cbf;
+    font-size: 15px;
+    transition:all 2s ease-in;
+}
+.noidung1 p:hover{
+    background-color: rgb(255, 172, 158);
+}
+.content1{
+    width: 400px;
+    height: 200px;
+    background-color: rgba(190, 250, 250, 0.541);
+    color: rgb(17, 126, 250);
+    position: relative;
+    top:0;
+    left:0;
+    margin: 80px 20px;
+    visibility: visible;
+    opacity:0;
+    transition-duration:2s;
+    padding: 20px;
+    display: inline-block;
+}
+.content1:hover{
+    background-color: rgba(200, 253, 236, 0.753);
+    opacity:1;
+    visibility: hidden;
+}
+
+.xam{
+    width: 400px;
+    background-color: rgb(214, 211, 211);
+    margin: 20px 20px 20px;
+    overflow: hidden;
+    box-shadow: 3px 3px 20px rgb(168, 190, 204);
+    position: absolute;
+    display: inline-block;
+}
+.bong{
+    width: 400px;
+    overflow: hidden;
+}
+.bong img{
+    width: 400px;
+}
+.xambong{
+    padding: 12px 20px;
+}
+.xambong h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: #4d7cbf;
+}
+.xambong p{
+    margin-top: 10px;
+    color: #4d7cbf;
+    font-size: 15px;
+    transition:all 2s ease-in;
+}
+.xambong p:hover{
+    background-color: rgb(255, 172, 158);
+}
+.xambong1{
+    width:100%;
+    height:400px;
+    background-color: rgba(190, 250, 250, 0.541);
+    color: rgb(158, 202, 247);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 80px 20px;
+    opacity:0;
+    transition-duration:2s;
+    padding: 20px;
+    display: inline-block;
+}
+.xambong1:hover{
+    height:100%;
+}
